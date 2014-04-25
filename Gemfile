@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 
 gem 'cucumber'
-gem 'specinfra', git: 'https://github.com/higanworks/specinfra.git', ref: 'smartos_get_package_version'
+gem 'specinfra'
 gem 'net-ssh'
 
 group :development do
